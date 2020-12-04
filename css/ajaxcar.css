@@ -1,0 +1,23 @@
+#hsnoutput, #hsntsnoutput{ 
+    position: absolute;
+    z-index: 9999;
+    background: #f2eade;
+    width: 360px;
+    border-color: #BFC3C8;
+    border-color: var(--border-color) !important;
+    border-width: 1px;
+    border-width: var(--field-border-width) !important;
+    border-style: solid;
+    border-style: var(--field-border-style) !important;
+    -moz-border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    border-radius: 4px;
+    border-radius: var(--border-radius) !important;
+    display: none;
+    cursor: default;
+    height: 200px;
+    overflow-x: auto;
+}
+#hsnoutput div:hover, #hsntsnoutput div:hover{
+    background: #fff;
+}
